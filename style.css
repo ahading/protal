@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	}
+body{
+	color:#000;
+    font-size:14px;
+    font-family: "Microsoft YaHei",tahoma,arial,simsun;
+	}
+.header{
+	min-width:1215px;
+    height:171px;
+	background:url(img/header.png) no-repeat center top;
+	position: relative;
+	}
+.header .headerlogo{
+    width:1215px;
+    margin:0 auto;
+    height:126px;
+    position:relative;
+	}
+.header .headerlogo .logo{
+	float:left;
+	}
+.header .headerlogo .search{
+	position:absolute;
+    top:20px;
+    right:20px;
+	}
+.header .navbar{
+	position:absolute;
+	top:130px;
+	width:100%;
+	}
+.header .navbar .nav li{
+	float:left;
+	text-align:center;
+	line-height:36px;
+	}
+.header .navbar .nav li a{
+	display:block;
+	text-align:center;
+	line-height:36px;
+	padding:0px 40px;
+	font-size: 18px;
+	}
+.header .navbar .nav li a:link,.header .navbar .nav li a:visited{
+	text-decoration:none;
+    color:#FFF;
+	}
+.header .navbar .nav li a:hover{
+	background:#063b74;
+	}
+.content{
+	
+	height: 430px;
+	min-width: 1215px;
+	margin:0px auto;
+	overflow:hidden;
+	}
+.container{
+	min-width: 1215px;
+	margin:0px auto;
+	overflow:hidden;
+	}
+.container .hd{
+	height:56px;
+    border-bottom:1px solid #c2c2c2;
+	}
+.container .hd .tit{
+	height:55px;
+    line-height:55px;
+    float:left;
+	}
+.container .hd .tit .cn{
+	float:left;
+    font-size:22px;
+    color:#16599f;
+    padding-left:42px;
+    border-bottom:2px solid #165aa0;
+	}
+.container .hd .tit .en{
+	float:left;
+    font-size:14px;
+    color:#bababa;
+    margin-left:13px;
+	}
+.container .hd .more{
+	float:right;
+    width:15px;
+    height:14px;
+    margin-top:30px;
+	}
+.container .hd .more a{
+    display:block;
+    background:url(img/more.png) no-repeat;
+	text-indent:-9999px;
+    }
+.container .bd{
+	min-height:100px;
+    overflow:hidden;
+	}
+.container .plane{
+	width:1215px;
+	height:418px;
+	margin:20px auto;
+	}
+.container .plane .boxfl{
+	width:808px;
+	height:418px;
+	margin:10px 5px;
+	background-color:#FFF;
+	float:left;
+	}
+.container .plane .boxfl .hd .tit .cn{
+    background:url(img/ico01.png) no-repeat center left;
+	}
+.container .plane .boxfl .bd .text1{
+	height:79px;
+    padding:10px 12px 15px 12px;
+    border:1px solid #f5f5f5;
+    border-top:none;
+    background:#fafafa;
+	position:relative;
+	}
+.container .plane .boxfl .bd .text1 p{
+	line-height:28px;
+    font-size:14px;
+    font-weight:normal;
+    margin-bottom:5px;
+	color:#3c5e81;
+	}
+.container .plane .boxfl .bd .text1 .more_one{
+	padding-right:20px;
+    background:url(img/icon01.png) no-repeat center right;
+	font-size:12px;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	}
+.container .plane .boxfl .bd .text1 .more_one a{
+	text-decoration:none;
+	color:#989898;
+	}
+.container .plane .boxfl .bd li{
+    width:256px;
+    margin:24px 20px 0 0;
+    float:left;
+    overflow:hidden;
+	}
+.container .plane .boxfr{
+	width:375px;
+	height:418px;
+	margin:10px 5px;
+	background-color:#FFF;
+	float:right;
+	}
+.container .plane .boxfr .hd .tit .cn{
+    background:url(img/ico02.png) no-repeat center left;
+	}
+.container .plane .boxfr .bd li{
+	margin-top:19px;
+	overflow:hidden;
+	}
+.container .plane .boxfr .bd .time1{
+	width:69px;
+    height:58px;
+    float:left;
+    text-align:center;
+    border:1px solid #448aca;
+	}
+.container .plane .boxfr .bd .time1 .day{
+	color:#fff;
+    line-height:32px;
+    font-size:25px;
+    background:#15599f;
+	display:block;
+	}
+.container .plane .boxfr .bd .time1 .year{
+	color:#15599f;
+    line-height:26px;
+	}
+.container .plane .boxfr .bd .text2{
+	margin-left:17px;
+    width:285px;
+    float:left;
+	position:relative;
+	}
+.container .plane .boxfr .bd .text2 .link{
+	font-size:16px;
+	position:absolute;
+	top:5px;
+	}
+.container .plane .boxfr .bd .text2 .link a{
+	text-decoration:none;
+	color:#15599f;
+	}
+.container .plane .boxfr .bd .text2 p{
+	font-size:12px;
+	color:#989898;
+	position:absolute;
+	top:35px;
+	}
+.container .plane2{
+	width:1215px;
+	height:418px;
+	margin:20px auto;
+	}
+.container .plane2 .boxfl{
+	width:808px;
+	height:418px;
+	margin:10px 5px;
+	background-color:#FFF;
+	float:left;
+	}
+.container .plane2 .boxfl .hd .tit .cn{
+    background:url(img/ico03.png) no-repeat center left;
+	}
+.container .plane2 .boxfl .bd li{
+	margin-top:16px;
+	position:relative;
+	}
+.container .plane2 .boxfl .bd .link_one{
+	font-size:18px;
+	padding-left:27px;
+	background:url(img/icon02.png) no-repeat center left;
+	}
+.container .plane2 .boxfl .bd .link_one a{
+	text-decoration:none;
+	color:#333;
+	}
+.container .plane2 .boxfl .bd .link_one a:hover{
+	color:#900;
+	}
+.container .plane2 .boxfl .bd .time2{
+	padding-left:20px;
+	background:url(img/icon03.png) no-repeat center left;
+	color:#999;
+	position:absolute;
+	right:0px;
+	}
+.container .plane2 .boxfr{
+	width:375px;
+	height:418px;
+	margin:10px 5px;
+	background-color:#FFF;
+	float:right;
+	}
+.container .plane2 .boxfr .hd .tit .cn{
+	background:url(img/ico04.png) no-repeat center left;
+	}
+.container .plane2 .boxfr .video{
+	margin-top:22px;
+	}
+.container .plane2 .boxfr li{
+	font-size:16px;
+	margin-top:17px;
+	position:relative;
+	}
+.container .plane2 .boxfr li a{
+	text-decoration:none;
+	color:#333;
+	}
+.container .plane2 .boxfr li a:hover{
+	color:#900;
+	}
+.container .plane2 .boxfr .bd .time3{
+	color:#999;
+	position:absolute;
+	right:0px;
+	}
+.container .plane3{
+	width:1215px;
+	height:244px;
+	margin:20px auto;
+	}
+.container .plane3 .special{
+	width:385px;
+	height:244px;
+	margin:10px 5px;
+	background-color:#FFF;
+	float:left;
+	}
+.container .plane3 .special .subject{
+	margin-top:25px;
+	}
+.container .plane3 .special .hd .tit .cn{
+	background:url(img/ico05.png) no-repeat center left;
+	}
+.container .plane3 .quick{
+	width:797px;
+	height:244px;
+	margin:10px 5px;
+	background-color:#FFF;
+	float:right;
+	}
+.container .plane3 .quick .hd .tit .cn{
+	background:url(img/ico06.png) no-repeat center left;
+	}
+.container .plane3 .quick li{
+	float:left;
+	}
+.container .plane3 .quick li a{
+	display:block;
+	font-size:16px;
+	color:#FFF;
+	text-decoration:none;
+	text-align:center;
+	line-height:56px;
+	}
+.container .plane3 .quick li a:hover{
+	background-color:#063b74;
+	}
+.container .plane3 .quick .li1{
+	width:252px;
+	height:56px;
+	background:#556FB5;
+	margin:25px 20px 0px 0px;
+	}
+.container .plane3 .quick .li2{
+	width:252px;
+	height:56px;
+	background:#448aca;
+	margin:25px 20px 0px 0px;
+	}
+.container .plane3 .quick .li3{
+	width:252px;
+	height:56px;
+	background:#13b5b1;
+	margin-top:25px;
+	}
+.container .plane3 .quick .li4{
+	width:252px;
+	height:56px;
+	background:#417699;
+	margin:25px 20px 0px 0px;
+	}
+.container .plane3 .quick .li5{
+	width:252px;
+	height:56px;
+	background:#c490bf;
+	margin:25px 20px 0px 0px;
+	}
+.container .plane3 .quick .li6{
+	width:252px;
+	height:56px;
+	background:#559b7d;
+	margin-top:25px
+	}
+.links{
+	width:100%;
+	height:54px;
+	margin:0px auto;
+	line-height:54px;
+	background-color:#f5f5f5;
+	}
+.links .container{
+	margin: 0px auto;
+	width: 1215px;
+	}
+.links .container li{
+	height:54px;
+    line-height:54px;
+    float:left;
+	}
+.links .container .tit_one{
+	font-size:18px;
+    color:#115497;
+    margin-right:20px;
+	float:left;
+	}
+.links .container li a{
+	font-size:16px;
+	color:#595959;
+	text-decoration:none;
+	}
+.links .container li span{
+	margin:0px 14px;
+	}
+.footer{
+	width:100%;
+    height:164px;
+    background:#1559a0;
+	clear:both;
+	}
+.footer .footinner{
+	width:1215px;
+    height:164px;
+    background:#1559a0;
+	margin:0px auto;
+	}
+.footer .footinner .marking{
+	float:left;
+    margin-top:25px;
+	}
+.footer .footinner .copy{
+	width:570px;
+    float:left;
+    color:#FFF;
+    line-height:30px;
+    margin-top:20px;
+    margin-left:20px;
+	}
+.footer .footinner .copy img{
+	position:relative;
+	bottom:25px;
+	left:154px;
+	}
+.footer .footinner .copy .hunan{
+	position:relative;
+	bottom:50px;
+	left:178px;
+	}
+.footer .footinner .copy a{
+	text-decoration:none;
+	color:#FFF;
+	}
+.footer .footinner .copy .over{
+	position:relative;
+	bottom:50px;
+	left:178px;
+	}
+.footer .footinner .copy .over a{
+	color:#333;
+	}
+.footer .footinner .bd{
+	position:relative;
+	}
+.footer .footinner .bd ul{
+	position:absolute;
+	right:0px;
+	}
+.footer .footinner .bd li{
+	float:left;
+	margin:15px;
+	color:#FFF;
+	}
