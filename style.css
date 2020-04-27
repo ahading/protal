@@ -6,15 +6,13 @@
 	list-style:none;
 	}
 body{
-	color:#000;
     font-size:14px;
-    font-family: "Microsoft YaHei",tahoma,arial,simsun;
+    font-family: "Microsoft YaHei",tahoma,arial;
 	}
 .header{
 	min-width:1215px;
     height:171px;
 	background:url(img/header.png) no-repeat center top;
-	position: relative;
 	}
 .header .headerlogo{
     width:1215px;
@@ -22,28 +20,19 @@ body{
     height:126px;
     position:relative;
 	}
-.header .headerlogo .logo{
-	float:left;
-	}
 .header .headerlogo .search{
 	position:absolute;
-    top:20px;
+    top:30px;
     right:20px;
-	}
-.header .navbar{
-	position:absolute;
-	top:130px;
-	width:100%;
 	}
 .header .navbar .nav li{
 	float:left;
 	text-align:center;
-	line-height:36px;
+	line-height:44px;
+	height: 44px;
 	}
 .header .navbar .nav li a{
 	display:block;
-	text-align:center;
-	line-height:36px;
 	padding:0px 40px;
 	font-size: 18px;
 	}
@@ -55,16 +44,13 @@ body{
 	background:#063b74;
 	}
 .content{
-	
 	height: 430px;
 	min-width: 1215px;
 	margin:0px auto;
-	overflow:hidden;
 	}
 .container{
 	min-width: 1215px;
 	margin:0px auto;
-	overflow:hidden;
 	}
 .container .hd{
 	height:56px;
@@ -76,15 +62,15 @@ body{
     float:left;
 	}
 .container .hd .tit .cn{
-	float:left;
+	display: inline-block;
     font-size:22px;
     color:#16599f;
     padding-left:42px;
     border-bottom:2px solid #165aa0;
 	}
 .container .hd .tit .en{
-	float:left;
-    font-size:14px;
+	display: inline-block;
+	font-size:14px;
     color:#bababa;
     margin-left:13px;
 	}
@@ -99,10 +85,6 @@ body{
     background:url(img/more.png) no-repeat;
 	text-indent:-9999px;
     }
-.container .bd{
-	min-height:100px;
-    overflow:hidden;
-	}
 .container .plane{
 	width:1215px;
 	height:418px;
@@ -134,6 +116,7 @@ body{
 	color:#3c5e81;
 	}
 .container .plane .boxfl .bd .text1 .more_one{
+	display: inline-block;
 	padding-right:20px;
     background:url(img/icon01.png) no-repeat center right;
 	font-size:12px;
@@ -149,8 +132,10 @@ body{
     width:256px;
     margin:24px 20px 0 0;
     float:left;
-    overflow:hidden;
 	}
+.container .plane .boxfl .bd li:last-child{
+	margin:24px 0 0 0;
+	}	
 .container .plane .boxfr{
 	width:375px;
 	height:418px;
@@ -163,7 +148,6 @@ body{
 	}
 .container .plane .boxfr .bd li{
 	margin-top:19px;
-	overflow:hidden;
 	}
 .container .plane .boxfr .bd .time1{
 	width:69px;
@@ -174,19 +158,21 @@ body{
 	}
 .container .plane .boxfr .bd .time1 .day{
 	color:#fff;
-    line-height:32px;
+	line-height:32px;
+	height: 32px;
     font-size:25px;
     background:#15599f;
 	display:block;
 	}
 .container .plane .boxfr .bd .time1 .year{
 	color:#15599f;
+	height: 26px;
     line-height:26px;
 	}
 .container .plane .boxfr .bd .text2{
 	margin-left:17px;
     width:285px;
-    float:left;
+    float:right;
 	position:relative;
 	}
 .container .plane .boxfr .bd .text2 .link{
@@ -219,7 +205,7 @@ body{
 .container .plane2 .boxfl .hd .tit .cn{
     background:url(img/ico03.png) no-repeat center left;
 	}
-.container .plane2 .boxfl .bd li{
+.container .plane2 .boxfl .bd ul li{
 	margin-top:16px;
 	position:relative;
 	}
@@ -310,6 +296,7 @@ body{
 	text-decoration:none;
 	text-align:center;
 	line-height:56px;
+	height: 56px;
 	}
 .container .plane3 .quick li a:hover{
 	background-color:#063b74;
@@ -348,43 +335,43 @@ body{
 	width:252px;
 	height:56px;
 	background:#559b7d;
-	margin-top:25px
+	margin-top:25px;
 	}
 .links{
 	width:100%;
 	height:54px;
 	margin:0px auto;
-	line-height:54px;
 	background-color:#f5f5f5;
 	}
-.links .container{
+.links .container_links{
 	margin: 0px auto;
 	width: 1215px;
+	/* overflow: hidden;  */
+	background-color:#f5f5f5;
 	}
-.links .container li{
+.links .container_links li{
 	height:54px;
     line-height:54px;
     float:left;
 	}
-.links .container .tit_one{
+.links .container_links .tit_one{
 	font-size:18px;
     color:#115497;
     margin-right:20px;
-	float:left;
 	}
-.links .container li a{
+.links .container_links li a{
 	font-size:16px;
 	color:#595959;
 	text-decoration:none;
 	}
-.links .container li span{
+.links .container_links li span{
 	margin:0px 14px;
 	}
 .footer{
 	width:100%;
-    height:164px;
+	height:164px;
+	margin: 0px auto;
     background:#1559a0;
-	clear:both;
 	}
 .footer .footinner{
 	width:1215px;
@@ -405,6 +392,7 @@ body{
     margin-left:20px;
 	}
 .footer .footinner .copy img{
+	display: block;
 	position:relative;
 	bottom:25px;
 	left:154px;
@@ -438,3 +426,13 @@ body{
 	margin:15px;
 	color:#FFF;
 	}
+.clearfix{
+	*zoom: 1;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
