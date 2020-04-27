@@ -9,27 +9,13 @@
   <script type="text/javascript" src="jquery-3.5.0.js"></script>
   <script type="text/javascript" src="easySlider.js"></script>
 </head>
-<script type="text/javascript">
-  $(function () {
-    $("#slider").easySlider({
-      slideSpeed: 500,
-      autoSlide: true,
-      paginationSpacing: "15px",
-      paginationDiameter: "12px",
-      paginationPositionFromBottom: "20px",
-      slidesClass: ".slides",
-      controlsClass: ".controls",
-      paginationClass: ".pagination"
-    });
-  });
-</script>
 
 <body>
   <!--头部-->
   <div class="header">
     <div class="headerlogo">
       <div class="logo"><img src="img/logo.png" /></div>
-      <div class="search"><img src="img/sbtn.png" /></div>
+      <!-- <div class="search"><img src="img/sbtn.png" /></div> -->
       <!-- 菜单栏-->
       <div class="navbar">
         <ul class="nav">
@@ -346,5 +332,18 @@
     </div>
   </div>
 </body>
-
+<script type="text/javascript">
+  $(function () {
+    $("#slider").easySlider({
+      slideSpeed: 500,
+      autoSlide: true,
+      paginationSpacing: "15px",
+      paginationDiameter: "12px",
+      paginationPositionFromBottom: "20px",
+      slidesClass: ".slides",
+      controlsClass: ".controls",
+      paginationClass: ".pagination"
+    });
+  });
+</script>
 </html>

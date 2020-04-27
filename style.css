@@ -47,6 +47,7 @@ body{
 	height: 430px;
 	min-width: 1215px;
 	margin:0px auto;
+	border-top: 2px solid cadetblue;
 	}
 .container{
 	min-width: 1215px;
